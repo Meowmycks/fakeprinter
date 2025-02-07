@@ -8,9 +8,11 @@ Includes some common HP printer services like JetDirect, IPP, and a web port tha
 Still a work-in-progress. Need to add more ports and fix up some stuff, but it's difficult when you don't have a real network printer to compare against.
 
 # Example
-Nmap service scan against open ports\n
+Nmap service scan against open ports
+
 ![image1 (1)](https://github.com/user-attachments/assets/60602657-5e67-46d7-9bc7-806719866570)
 
-Creating a systemctl service to run on startup\n
+Creating a systemctl service to run on startup
+
 ![image (2)](https://github.com/user-attachments/assets/efae5237-af25-4eb5-bb33-d7e132d5e6b7)
 
