@@ -7,6 +7,8 @@ Includes some common HP printer services like JetDirect, IPP, and a web port tha
 
 Still a work-in-progress. Need to add more ports and fix up some stuff, but it's difficult when you don't have a real network printer to compare against.
 
+The scripts are designed to just create a thin mask over what your device really is. Tools like `snmpwalk` may not work when run against the endpoint (unless I take the time to spoof a bunch of SNMP OIDs to return or smth). Plus, if someone's scanning your endpoint that hard anyway, you were probably too loud and you've likely got bigger problems.
+
 # Example
 Nmap service scan against open ports
 
